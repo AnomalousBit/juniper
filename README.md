@@ -52,13 +52,15 @@ The concept for juniper is to quickly incorporate existing data into a tree stru
 
 ## Installation
 
-for general Ruby usage, run:
+for general Ruby usage, from the console run:
 `gem install juniper`
 
-then simply include the module where you wish to create a tree:
+then simply include the module at the top of your ruby file where you wish to create a tree:
+
 `require 'juniper'`
 
 for use with rails / bundle, add the following line to your Gemfile
+
 `gem 'juniper', git: 'https://github.com/AnomalousBit/juniper.git'`
 
 
